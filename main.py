@@ -1,5 +1,4 @@
 import os, time, random
-from turtle import width
 os.environ['PYGAME_HIDE_SUPPORT_PROMPT'] = "hide" #Hide the pygame welcome printing
 DIRPATH = os.path.dirname(os.path.abspath(__file__))
 os.chdir(DIRPATH) #Sets the directory containing file as the work directory
